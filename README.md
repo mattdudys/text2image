@@ -20,7 +20,8 @@ $ php generate-urls.php
 # Run it
 $ docker run -it --rm -p 56123:80 --name text2image text2image:latest
 
-# Test it out by changing the HTTP path!```
+# Test it out by changing the HTTP path!
+```
 
 The script that generates the image is in `www/index.php`. All requests are handled by it.
 
